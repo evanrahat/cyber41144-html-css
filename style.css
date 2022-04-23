@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    height: 200px;
+    width: auto;
+    /* background-color: darkgoldenrod; */
+}
+
+header {
+    background-color: rgb(244, 104, 68);
+    height: 200px;
+    width: 95%;
+    margin: auto;
+    margin-top: 0%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: -1px 0px 9px 7px black;
+}
+
+.logo {
+    height: 200px;
+}
+
+.logo img {
+    height: 200px;
+}
+
+.logo_text {
+    text-align: center;
+    height: fit-content;
+    width: 400px;
+}
+
+.logo_text h1 {
+    color: rgb(15, 15, 15);
+    /* font-style: italic; */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 100;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: rgb(243, 144, 50);
+    padding: 80px 10px;
+}
+
+.menu {
+    padding: 10px;
+    width: 200px;
+}
+
+.menu nav ul li {
+    height: fit-content;
+    width: auto;
+    display: inline-block;
+    padding: 15px 10px;
+    /* background-color: rgb(243,144,50); */
+    border-radius: 10px;
+}
+
+.menu nav ul li:hover {
+    background-color: rgb(246, 144, 50);
+}
+
+.menu nav ul li a {
+    text-transform: uppercase;
+    font-size: 16px;
+    padding: 10px;
+    text-decoration: wheat;
+    color: black;
+    font-weight: 700;
+    /* width: auto; */
+}
+body {
+    background-image: url(./pexels-cátia-matos-1072179.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+section {
+    height: 500px;
+}
+
+.box {
+    height: 200px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: -1px 0px 9px 7px black;
+    margin: auto;
+    padding: 50px 100px;
+    margin-top: 180px;
+    background-color: antiquewhite;
+    opacity: 30%;
+}
+.box h1 {
+    color: black;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 70px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+footer {
+    height:150px;
+    width: 100%;
+    margin: auto;
+    background-color:rgb(243, 144, 50);
+    box-shadow: -1px 0px 9px 7px black;
+}
+.copyright {
+    text-align: center;
+    color: rgb(8, 8, 8);
+}
+}
