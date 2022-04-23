@@ -86,21 +86,27 @@ section {
 
 .box {
     height: 200px;
-    width: 300px;
+    width: 400px;
     border-radius: 10px;
     box-shadow: -1px 0px 9px 7px black;
     margin: auto;
     padding: 50px 100px;
     margin-top: 180px;
-    background-color: antiquewhite;
-    opacity: 30%;
+    /* background-color: antiquewhite; */
+    /* opacity: 30%; */
 }
-.box h1 {
+/* .box h1 {
     color: black;
     font-size: 50px;
     text-align: center;
-    margin-top: 70px;
+    margin-top: 20px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+} */
+.box img {
+    margin-right: 100px ;
+    /* padding:10px 15px; */
+    height: 200px;
+    /* width: 500px; */
 }
 footer {
     height:150px;
@@ -112,4 +118,9 @@ footer {
 .copyright {
     text-align: center;
     color: rgb(8, 8, 8);
+}
+h1 {
+    color: white;
+    text-transform: uppercase;
+    font-size: 12px;
 }
